@@ -23,7 +23,7 @@ It combines customer segmentation, support ticket classification, and policy ret
 ## Project Structure
 
 ```text
-retail_customer_intelligence_capstone/
+swiggy-instamart-customer-intelligence-copilot/
 ├── generate_data.py
 ├── customer_segmentation.py
 ├── triage.py
