@@ -128,4 +128,4 @@ Do not use this demonstration to make real refund, payment, or customer account 
 
 ## Author
 
-Add your name and project details here before submission.
+Capstone project: Swiggy Instamart Customer Intelligence Co-Pilot
