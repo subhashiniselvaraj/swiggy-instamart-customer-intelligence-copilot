@@ -1,0 +1,63 @@
+{
+  "target": "customer made at least one purchase in the final 90-day window after the feature cutoff",
+  "feature_cutoff": "2011-09-10 12:50:00",
+  "dataset_max_date": "2011-12-09 12:50:00",
+  "feature_customer_count": 3370,
+  "positive_rate": 0.5700296735905045,
+  "candidate_test_metrics": {
+    "logistic_regression": {
+      "accuracy": 0.6524317912218268,
+      "precision": 0.7640449438202247,
+      "recall": 0.5654885654885655,
+      "f1": 0.6499402628434886,
+      "roc_auc": 0.7313607700348032
+    },
+    "random_forest": {
+      "accuracy": 0.6536180308422301,
+      "precision": 0.7172413793103448,
+      "recall": 0.6486486486486487,
+      "f1": 0.6812227074235808,
+      "roc_auc": 0.7150273945854057
+    }
+  },
+  "selected_model": "random_forest",
+  "tuned_best_params": {
+    "model__max_depth": 16,
+    "model__n_estimators": 200
+  },
+  "tuned_test_metrics": {
+    "accuracy": 0.6619217081850534,
+    "precision": 0.7425742574257426,
+    "recall": 0.6237006237006237,
+    "f1": 0.6779661016949152,
+    "roc_auc": 0.7314469165297894,
+    "classification_report": {
+      "0": {
+        "precision": 0.5876993166287016,
+        "recall": 0.712707182320442,
+        "f1-score": 0.6441947565543071,
+        "support": 362.0
+      },
+      "1": {
+        "precision": 0.7425742574257426,
+        "recall": 0.6237006237006237,
+        "f1-score": 0.6779661016949152,
+        "support": 481.0
+      },
+      "accuracy": 0.6619217081850534,
+      "macro avg": {
+        "precision": 0.665136787027222,
+        "recall": 0.6682039030105329,
+        "f1-score": 0.6610804291246112,
+        "support": 843.0
+      },
+      "weighted avg": {
+        "precision": 0.6760680550905956,
+        "recall": 0.6619217081850534,
+        "f1-score": 0.6634640531291973,
+        "support": 843.0
+      }
+    }
+  },
+  "caution": "Educational temporal target. The test split is customer-level; further temporal backtesting is recommended for production."
+}

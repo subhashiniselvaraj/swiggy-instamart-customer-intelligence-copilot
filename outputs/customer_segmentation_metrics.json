@@ -1,0 +1,16 @@
+{
+  "data_source": "Synthetic sample data; not actual Swiggy data",
+  "customer_count": 487,
+  "selected_k": 2,
+  "silhouette_scores": {
+    "2": 0.3892,
+    "3": 0.3173,
+    "4": 0.3272,
+    "5": 0.3101
+  },
+  "pca_explained_variance_ratio": [
+    0.6675,
+    0.2698
+  ],
+  "pca_total_explained_variance": 0.9374
+}

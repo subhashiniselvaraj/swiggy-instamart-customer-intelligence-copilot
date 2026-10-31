@@ -1,0 +1,401 @@
+ticket_id,customer_id,ticket_type,description,priority,status,predicted_ticket_type,recommended_team,recommended_priority
+T0001,C0212,Product quality,The product arrived damaged or poor quality.,High,In Progress,Product quality,Quality Support,High
+T0002,C0468,Payment issue,My payment was deducted but the order is missing.,Low,In Progress,Payment issue,Payments Support,High
+T0003,C0136,Payment issue,My payment was deducted but the order is missing.,Low,In Progress,Payment issue,Payments Support,High
+T0004,C0235,Delayed order,My order has not arrived on time.,High,In Progress,Delayed order,Delivery Support,High
+T0005,C0388,Payment issue,My payment was deducted but the order is missing.,Medium,In Progress,Payment issue,Payments Support,High
+T0006,C0353,Product quality,The product arrived damaged or poor quality.,Medium,In Progress,Product quality,Quality Support,High
+T0007,C0359,Missing item,One item is missing from my order.,Medium,Resolved,Missing item,Order Support,Medium
+T0008,C0305,Product quality,The product arrived damaged or poor quality.,Low,Open,Product quality,Quality Support,High
+T0009,C0268,Payment issue,My payment was deducted but the order is missing.,Medium,Open,Payment issue,Payments Support,High
+T0010,C0451,Payment issue,My payment was deducted but the order is missing.,Medium,Resolved,Payment issue,Payments Support,High
+T0011,C0366,Product quality,The product arrived damaged or poor quality.,Medium,In Progress,Product quality,Quality Support,High
+T0012,C0291,Payment issue,My payment was deducted but the order is missing.,High,In Progress,Payment issue,Payments Support,High
+T0013,C0366,Missing item,One item is missing from my order.,Medium,Resolved,Missing item,Order Support,Medium
+T0014,C0080,Product quality,The product arrived damaged or poor quality.,High,Resolved,Product quality,Quality Support,High
+T0015,C0076,Payment issue,My payment was deducted but the order is missing.,High,In Progress,Payment issue,Payments Support,High
+T0016,C0132,Missing item,One item is missing from my order.,High,Open,Missing item,Order Support,Medium
+T0017,C0436,Delayed order,My order has not arrived on time.,Low,Resolved,Delayed order,Delivery Support,High
+T0018,C0076,Product quality,The product arrived damaged or poor quality.,High,Open,Product quality,Quality Support,High
+T0019,C0187,Product quality,The product arrived damaged or poor quality.,High,Resolved,Product quality,Quality Support,High
+T0020,C0208,Refund request,Please help me with a refund for my order.,Medium,Resolved,Refund request,Refund Support,Medium
+T0021,C0498,Payment issue,My payment was deducted but the order is missing.,Medium,Resolved,Payment issue,Payments Support,High
+T0022,C0301,Payment issue,My payment was deducted but the order is missing.,High,In Progress,Payment issue,Payments Support,High
+T0023,C0192,Refund request,Please help me with a refund for my order.,Medium,In Progress,Refund request,Refund Support,Medium
+T0024,C0446,Payment issue,My payment was deducted but the order is missing.,High,In Progress,Payment issue,Payments Support,High
+T0025,C0248,Payment issue,My payment was deducted but the order is missing.,Medium,Open,Payment issue,Payments Support,High
+T0026,C0176,Delayed order,My order has not arrived on time.,Low,In Progress,Delayed order,Delivery Support,High
+T0027,C0115,Payment issue,My payment was deducted but the order is missing.,Low,In Progress,Payment issue,Payments Support,High
+T0028,C0399,Refund request,Please help me with a refund for my order.,High,Open,Refund request,Refund Support,Medium
+T0029,C0183,Payment issue,My payment was deducted but the order is missing.,Medium,In Progress,Payment issue,Payments Support,High
+T0030,C0468,Refund request,Please help me with a refund for my order.,High,Open,Refund request,Refund Support,Medium
+T0031,C0460,Refund request,Please help me with a refund for my order.,Low,Resolved,Refund request,Refund Support,Medium
+T0032,C0187,Payment issue,My payment was deducted but the order is missing.,High,Open,Payment issue,Payments Support,High
+T0033,C0321,Missing item,One item is missing from my order.,Low,In Progress,Missing item,Order Support,Medium
+T0034,C0035,Refund request,Please help me with a refund for my order.,Medium,Resolved,Refund request,Refund Support,Medium
+T0035,C0434,Refund request,Please help me with a refund for my order.,High,Resolved,Refund request,Refund Support,Medium
+T0036,C0497,Delayed order,My order has not arrived on time.,Low,In Progress,Delayed order,Delivery Support,High
+T0037,C0268,Refund request,Please help me with a refund for my order.,Low,Open,Refund request,Refund Support,Medium
+T0038,C0409,Product quality,The product arrived damaged or poor quality.,High,Open,Product quality,Quality Support,High
+T0039,C0117,Payment issue,My payment was deducted but the order is missing.,High,Resolved,Payment issue,Payments Support,High
+T0040,C0091,Missing item,One item is missing from my order.,Low,Resolved,Missing item,Order Support,Medium
+T0041,C0283,Product quality,The product arrived damaged or poor quality.,Medium,Open,Product quality,Quality Support,High
+T0042,C0376,Payment issue,My payment was deducted but the order is missing.,Low,Open,Payment issue,Payments Support,High
+T0043,C0156,Refund request,Please help me with a refund for my order.,Low,Open,Refund request,Refund Support,Medium
+T0044,C0125,Payment issue,My payment was deducted but the order is missing.,High,Resolved,Payment issue,Payments Support,High
+T0045,C0238,Missing item,One item is missing from my order.,Low,Resolved,Missing item,Order Support,Medium
+T0046,C0164,Delayed order,My order has not arrived on time.,High,Open,Delayed order,Delivery Support,High
+T0047,C0245,Payment issue,My payment was deducted but the order is missing.,Low,In Progress,Payment issue,Payments Support,High
+T0048,C0244,Delayed order,My order has not arrived on time.,Low,Open,Delayed order,Delivery Support,High
+T0049,C0302,Refund request,Please help me with a refund for my order.,Low,Resolved,Refund request,Refund Support,Medium
+T0050,C0154,Missing item,One item is missing from my order.,High,Open,Missing item,Order Support,Medium
+T0051,C0221,Refund request,Please help me with a refund for my order.,Low,Resolved,Refund request,Refund Support,Medium
+T0052,C0399,Missing item,One item is missing from my order.,High,Open,Missing item,Order Support,Medium
+T0053,C0413,Refund request,Please help me with a refund for my order.,High,Resolved,Refund request,Refund Support,Medium
+T0054,C0001,Missing item,One item is missing from my order.,Medium,In Progress,Missing item,Order Support,Medium
+T0055,C0139,Refund request,Please help me with a refund for my order.,Medium,Resolved,Refund request,Refund Support,Medium
+T0056,C0169,Payment issue,My payment was deducted but the order is missing.,High,In Progress,Payment issue,Payments Support,High
+T0057,C0146,Refund request,Please help me with a refund for my order.,High,In Progress,Refund request,Refund Support,Medium
+T0058,C0445,Product quality,The product arrived damaged or poor quality.,High,Open,Product quality,Quality Support,High
+T0059,C0141,Product quality,The product arrived damaged or poor quality.,High,Resolved,Product quality,Quality Support,High
+T0060,C0159,Refund request,Please help me with a refund for my order.,High,In Progress,Refund request,Refund Support,Medium
+T0061,C0388,Delayed order,My order has not arrived on time.,Low,In Progress,Delayed order,Delivery Support,High
+T0062,C0164,Delayed order,My order has not arrived on time.,High,In Progress,Delayed order,Delivery Support,High
+T0063,C0084,Missing item,One item is missing from my order.,Low,Open,Missing item,Order Support,Medium
+T0064,C0345,Missing item,One item is missing from my order.,Medium,Open,Missing item,Order Support,Medium
+T0065,C0176,Missing item,One item is missing from my order.,High,Resolved,Missing item,Order Support,Medium
+T0066,C0422,Refund request,Please help me with a refund for my order.,Low,Open,Refund request,Refund Support,Medium
+T0067,C0391,Delayed order,My order has not arrived on time.,Low,Open,Delayed order,Delivery Support,High
+T0068,C0257,Product quality,The product arrived damaged or poor quality.,Medium,In Progress,Product quality,Quality Support,High
+T0069,C0242,Refund request,Please help me with a refund for my order.,Low,Resolved,Refund request,Refund Support,Medium
+T0070,C0475,Product quality,The product arrived damaged or poor quality.,High,Open,Product quality,Quality Support,High
+T0071,C0345,Refund request,Please help me with a refund for my order.,Low,In Progress,Refund request,Refund Support,Medium
+T0072,C0099,Payment issue,My payment was deducted but the order is missing.,Medium,Open,Payment issue,Payments Support,High
+T0073,C0313,Payment issue,My payment was deducted but the order is missing.,High,Open,Payment issue,Payments Support,High
+T0074,C0490,Product quality,The product arrived damaged or poor quality.,High,In Progress,Product quality,Quality Support,High
+T0075,C0404,Refund request,Please help me with a refund for my order.,Medium,Resolved,Refund request,Refund Support,Medium
+T0076,C0118,Product quality,The product arrived damaged or poor quality.,Medium,In Progress,Product quality,Quality Support,High
+T0077,C0190,Product quality,The product arrived damaged or poor quality.,Low,In Progress,Product quality,Quality Support,High
+T0078,C0373,Product quality,The product arrived damaged or poor quality.,Medium,Resolved,Product quality,Quality Support,High
+T0079,C0231,Product quality,The product arrived damaged or poor quality.,Medium,In Progress,Product quality,Quality Support,High
+T0080,C0202,Refund request,Please help me with a refund for my order.,Medium,Open,Refund request,Refund Support,Medium
+T0081,C0029,Missing item,One item is missing from my order.,Medium,In Progress,Missing item,Order Support,Medium
+T0082,C0500,Payment issue,My payment was deducted but the order is missing.,Medium,In Progress,Payment issue,Payments Support,High
+T0083,C0420,Delayed order,My order has not arrived on time.,High,Open,Delayed order,Delivery Support,High
+T0084,C0339,Payment issue,My payment was deducted but the order is missing.,High,In Progress,Payment issue,Payments Support,High
+T0085,C0427,Product quality,The product arrived damaged or poor quality.,Medium,Open,Product quality,Quality Support,High
+T0086,C0219,Product quality,The product arrived damaged or poor quality.,Medium,In Progress,Product quality,Quality Support,High
+T0087,C0287,Refund request,Please help me with a refund for my order.,High,Open,Refund request,Refund Support,Medium
+T0088,C0317,Payment issue,My payment was deducted but the order is missing.,High,In Progress,Payment issue,Payments Support,High
+T0089,C0055,Product quality,The product arrived damaged or poor quality.,Low,Open,Product quality,Quality Support,High
+T0090,C0167,Payment issue,My payment was deducted but the order is missing.,High,In Progress,Payment issue,Payments Support,High
+T0091,C0241,Refund request,Please help me with a refund for my order.,Low,Resolved,Refund request,Refund Support,Medium
+T0092,C0353,Missing item,One item is missing from my order.,High,In Progress,Missing item,Order Support,Medium
+T0093,C0144,Payment issue,My payment was deducted but the order is missing.,High,Resolved,Payment issue,Payments Support,High
+T0094,C0031,Missing item,One item is missing from my order.,Low,Open,Missing item,Order Support,Medium
+T0095,C0142,Product quality,The product arrived damaged or poor quality.,High,In Progress,Product quality,Quality Support,High
+T0096,C0473,Missing item,One item is missing from my order.,Medium,Open,Missing item,Order Support,Medium
+T0097,C0069,Missing item,One item is missing from my order.,High,Open,Missing item,Order Support,Medium
+T0098,C0397,Product quality,The product arrived damaged or poor quality.,High,In Progress,Product quality,Quality Support,High
+T0099,C0448,Payment issue,My payment was deducted but the order is missing.,Low,Resolved,Payment issue,Payments Support,High
+T0100,C0294,Product quality,The product arrived damaged or poor quality.,Low,Resolved,Product quality,Quality Support,High
+T0101,C0225,Delayed order,My order has not arrived on time.,Low,In Progress,Delayed order,Delivery Support,High
+T0102,C0280,Refund request,Please help me with a refund for my order.,High,In Progress,Refund request,Refund Support,Medium
+T0103,C0272,Refund request,Please help me with a refund for my order.,Medium,Resolved,Refund request,Refund Support,Medium
+T0104,C0072,Delayed order,My order has not arrived on time.,Low,Resolved,Delayed order,Delivery Support,High
+T0105,C0491,Product quality,The product arrived damaged or poor quality.,Medium,In Progress,Product quality,Quality Support,High
+T0106,C0095,Payment issue,My payment was deducted but the order is missing.,Medium,In Progress,Payment issue,Payments Support,High
+T0107,C0236,Payment issue,My payment was deducted but the order is missing.,Medium,In Progress,Payment issue,Payments Support,High
+T0108,C0347,Payment issue,My payment was deducted but the order is missing.,High,In Progress,Payment issue,Payments Support,High
+T0109,C0310,Product quality,The product arrived damaged or poor quality.,High,Open,Product quality,Quality Support,High
+T0110,C0062,Payment issue,My payment was deducted but the order is missing.,High,In Progress,Payment issue,Payments Support,High
+T0111,C0203,Missing item,One item is missing from my order.,Medium,Open,Missing item,Order Support,Medium
+T0112,C0031,Refund request,Please help me with a refund for my order.,High,In Progress,Refund request,Refund Support,Medium
+T0113,C0290,Delayed order,My order has not arrived on time.,Medium,Open,Delayed order,Delivery Support,High
+T0114,C0448,Refund request,Please help me with a refund for my order.,Medium,Resolved,Refund request,Refund Support,Medium
+T0115,C0145,Missing item,One item is missing from my order.,High,In Progress,Missing item,Order Support,Medium
+T0116,C0377,Delayed order,My order has not arrived on time.,Low,Resolved,Delayed order,Delivery Support,High
+T0117,C0499,Delayed order,My order has not arrived on time.,High,Open,Delayed order,Delivery Support,High
+T0118,C0082,Refund request,Please help me with a refund for my order.,High,Open,Refund request,Refund Support,Medium
+T0119,C0473,Refund request,Please help me with a refund for my order.,Medium,Resolved,Refund request,Refund Support,Medium
+T0120,C0385,Payment issue,My payment was deducted but the order is missing.,Low,Resolved,Payment issue,Payments Support,High
+T0121,C0419,Missing item,One item is missing from my order.,Medium,In Progress,Missing item,Order Support,Medium
+T0122,C0456,Missing item,One item is missing from my order.,High,Open,Missing item,Order Support,Medium
+T0123,C0038,Product quality,The product arrived damaged or poor quality.,Low,Resolved,Product quality,Quality Support,High
+T0124,C0174,Refund request,Please help me with a refund for my order.,Medium,Resolved,Refund request,Refund Support,Medium
+T0125,C0456,Missing item,One item is missing from my order.,Low,In Progress,Missing item,Order Support,Medium
+T0126,C0151,Refund request,Please help me with a refund for my order.,Low,Resolved,Refund request,Refund Support,Medium
+T0127,C0010,Missing item,One item is missing from my order.,Low,Open,Missing item,Order Support,Medium
+T0128,C0219,Product quality,The product arrived damaged or poor quality.,Low,In Progress,Product quality,Quality Support,High
+T0129,C0300,Payment issue,My payment was deducted but the order is missing.,High,In Progress,Payment issue,Payments Support,High
+T0130,C0235,Refund request,Please help me with a refund for my order.,High,Resolved,Refund request,Refund Support,Medium
+T0131,C0395,Payment issue,My payment was deducted but the order is missing.,High,In Progress,Payment issue,Payments Support,High
+T0132,C0079,Refund request,Please help me with a refund for my order.,Low,Open,Refund request,Refund Support,Medium
+T0133,C0158,Payment issue,My payment was deducted but the order is missing.,Low,Open,Payment issue,Payments Support,High
+T0134,C0274,Delayed order,My order has not arrived on time.,High,Open,Delayed order,Delivery Support,High
+T0135,C0277,Payment issue,My payment was deducted but the order is missing.,Medium,Open,Payment issue,Payments Support,High
+T0136,C0446,Product quality,The product arrived damaged or poor quality.,Medium,Open,Product quality,Quality Support,High
+T0137,C0104,Payment issue,My payment was deducted but the order is missing.,Medium,Open,Payment issue,Payments Support,High
+T0138,C0139,Missing item,One item is missing from my order.,Low,Open,Missing item,Order Support,Medium
+T0139,C0014,Product quality,The product arrived damaged or poor quality.,Low,In Progress,Product quality,Quality Support,High
+T0140,C0428,Delayed order,My order has not arrived on time.,Medium,Open,Delayed order,Delivery Support,High
+T0141,C0445,Missing item,One item is missing from my order.,High,Resolved,Missing item,Order Support,Medium
+T0142,C0195,Payment issue,My payment was deducted but the order is missing.,Low,In Progress,Payment issue,Payments Support,High
+T0143,C0205,Missing item,One item is missing from my order.,Low,Open,Missing item,Order Support,Medium
+T0144,C0303,Missing item,One item is missing from my order.,Low,Open,Missing item,Order Support,Medium
+T0145,C0260,Payment issue,My payment was deducted but the order is missing.,High,Resolved,Payment issue,Payments Support,High
+T0146,C0063,Refund request,Please help me with a refund for my order.,Low,Open,Refund request,Refund Support,Medium
+T0147,C0482,Delayed order,My order has not arrived on time.,Medium,Resolved,Delayed order,Delivery Support,High
+T0148,C0184,Refund request,Please help me with a refund for my order.,High,In Progress,Refund request,Refund Support,Medium
+T0149,C0098,Missing item,One item is missing from my order.,Low,Open,Missing item,Order Support,Medium
+T0150,C0185,Refund request,Please help me with a refund for my order.,Medium,In Progress,Refund request,Refund Support,Medium
+T0151,C0058,Refund request,Please help me with a refund for my order.,Medium,Open,Refund request,Refund Support,Medium
+T0152,C0195,Delayed order,My order has not arrived on time.,Medium,In Progress,Delayed order,Delivery Support,High
+T0153,C0182,Delayed order,My order has not arrived on time.,Medium,In Progress,Delayed order,Delivery Support,High
+T0154,C0223,Delayed order,My order has not arrived on time.,High,In Progress,Delayed order,Delivery Support,High
+T0155,C0360,Payment issue,My payment was deducted but the order is missing.,Low,Resolved,Payment issue,Payments Support,High
+T0156,C0449,Missing item,One item is missing from my order.,Medium,Open,Missing item,Order Support,Medium
+T0157,C0374,Product quality,The product arrived damaged or poor quality.,High,In Progress,Product quality,Quality Support,High
+T0158,C0073,Delayed order,My order has not arrived on time.,Low,Open,Delayed order,Delivery Support,High
+T0159,C0005,Refund request,Please help me with a refund for my order.,Low,Resolved,Refund request,Refund Support,Medium
+T0160,C0072,Payment issue,My payment was deducted but the order is missing.,High,In Progress,Payment issue,Payments Support,High
+T0161,C0032,Delayed order,My order has not arrived on time.,High,Open,Delayed order,Delivery Support,High
+T0162,C0191,Product quality,The product arrived damaged or poor quality.,High,In Progress,Product quality,Quality Support,High
+T0163,C0215,Payment issue,My payment was deducted but the order is missing.,Low,Open,Payment issue,Payments Support,High
+T0164,C0495,Refund request,Please help me with a refund for my order.,Low,Resolved,Refund request,Refund Support,Medium
+T0165,C0187,Payment issue,My payment was deducted but the order is missing.,Low,Open,Payment issue,Payments Support,High
+T0166,C0255,Delayed order,My order has not arrived on time.,Low,In Progress,Delayed order,Delivery Support,High
+T0167,C0321,Missing item,One item is missing from my order.,Medium,In Progress,Missing item,Order Support,Medium
+T0168,C0165,Refund request,Please help me with a refund for my order.,Low,Open,Refund request,Refund Support,Medium
+T0169,C0015,Product quality,The product arrived damaged or poor quality.,Medium,Open,Product quality,Quality Support,High
+T0170,C0468,Payment issue,My payment was deducted but the order is missing.,Medium,Open,Payment issue,Payments Support,High
+T0171,C0194,Refund request,Please help me with a refund for my order.,High,Resolved,Refund request,Refund Support,Medium
+T0172,C0087,Refund request,Please help me with a refund for my order.,Low,Open,Refund request,Refund Support,Medium
+T0173,C0179,Delayed order,My order has not arrived on time.,Low,Open,Delayed order,Delivery Support,High
+T0174,C0034,Missing item,One item is missing from my order.,Low,In Progress,Missing item,Order Support,Medium
+T0175,C0213,Missing item,One item is missing from my order.,High,In Progress,Missing item,Order Support,Medium
+T0176,C0439,Payment issue,My payment was deducted but the order is missing.,High,Resolved,Payment issue,Payments Support,High
+T0177,C0160,Delayed order,My order has not arrived on time.,Medium,In Progress,Delayed order,Delivery Support,High
+T0178,C0066,Product quality,The product arrived damaged or poor quality.,Medium,Resolved,Product quality,Quality Support,High
+T0179,C0188,Refund request,Please help me with a refund for my order.,High,Resolved,Refund request,Refund Support,Medium
+T0180,C0245,Delayed order,My order has not arrived on time.,Medium,Resolved,Delayed order,Delivery Support,High
+T0181,C0101,Refund request,Please help me with a refund for my order.,Low,Open,Refund request,Refund Support,Medium
+T0182,C0067,Refund request,Please help me with a refund for my order.,Low,Open,Refund request,Refund Support,Medium
+T0183,C0381,Delayed order,My order has not arrived on time.,Low,Resolved,Delayed order,Delivery Support,High
+T0184,C0145,Missing item,One item is missing from my order.,High,Open,Missing item,Order Support,Medium
+T0185,C0116,Payment issue,My payment was deducted but the order is missing.,Medium,Open,Payment issue,Payments Support,High
+T0186,C0169,Product quality,The product arrived damaged or poor quality.,High,In Progress,Product quality,Quality Support,High
+T0187,C0267,Refund request,Please help me with a refund for my order.,High,Resolved,Refund request,Refund Support,Medium
+T0188,C0390,Product quality,The product arrived damaged or poor quality.,Low,In Progress,Product quality,Quality Support,High
+T0189,C0192,Missing item,One item is missing from my order.,High,Open,Missing item,Order Support,Medium
+T0190,C0378,Refund request,Please help me with a refund for my order.,Low,Resolved,Refund request,Refund Support,Medium
+T0191,C0324,Missing item,One item is missing from my order.,Low,Open,Missing item,Order Support,Medium
+T0192,C0008,Payment issue,My payment was deducted but the order is missing.,Low,Resolved,Payment issue,Payments Support,High
+T0193,C0428,Delayed order,My order has not arrived on time.,Low,Open,Delayed order,Delivery Support,High
+T0194,C0166,Missing item,One item is missing from my order.,Low,Resolved,Missing item,Order Support,Medium
+T0195,C0248,Missing item,One item is missing from my order.,Medium,Open,Missing item,Order Support,Medium
+T0196,C0208,Refund request,Please help me with a refund for my order.,Medium,Open,Refund request,Refund Support,Medium
+T0197,C0319,Missing item,One item is missing from my order.,Medium,Resolved,Missing item,Order Support,Medium
+T0198,C0061,Missing item,One item is missing from my order.,High,In Progress,Missing item,Order Support,Medium
+T0199,C0474,Refund request,Please help me with a refund for my order.,Medium,In Progress,Refund request,Refund Support,Medium
+T0200,C0131,Payment issue,My payment was deducted but the order is missing.,Medium,In Progress,Payment issue,Payments Support,High
+T0201,C0234,Refund request,Please help me with a refund for my order.,High,Open,Refund request,Refund Support,Medium
+T0202,C0391,Product quality,The product arrived damaged or poor quality.,High,In Progress,Product quality,Quality Support,High
+T0203,C0401,Delayed order,My order has not arrived on time.,Medium,In Progress,Delayed order,Delivery Support,High
+T0204,C0494,Delayed order,My order has not arrived on time.,High,Open,Delayed order,Delivery Support,High
+T0205,C0117,Delayed order,My order has not arrived on time.,Medium,Open,Delayed order,Delivery Support,High
+T0206,C0282,Delayed order,My order has not arrived on time.,High,In Progress,Delayed order,Delivery Support,High
+T0207,C0448,Payment issue,My payment was deducted but the order is missing.,Medium,In Progress,Payment issue,Payments Support,High
+T0208,C0224,Missing item,One item is missing from my order.,High,Open,Missing item,Order Support,Medium
+T0209,C0094,Refund request,Please help me with a refund for my order.,Medium,Resolved,Refund request,Refund Support,Medium
+T0210,C0073,Payment issue,My payment was deducted but the order is missing.,High,Open,Payment issue,Payments Support,High
+T0211,C0102,Delayed order,My order has not arrived on time.,High,Resolved,Delayed order,Delivery Support,High
+T0212,C0270,Product quality,The product arrived damaged or poor quality.,High,Open,Product quality,Quality Support,High
+T0213,C0441,Refund request,Please help me with a refund for my order.,High,Resolved,Refund request,Refund Support,Medium
+T0214,C0410,Delayed order,My order has not arrived on time.,High,In Progress,Delayed order,Delivery Support,High
+T0215,C0118,Refund request,Please help me with a refund for my order.,High,Resolved,Refund request,Refund Support,Medium
+T0216,C0192,Payment issue,My payment was deducted but the order is missing.,Low,Open,Payment issue,Payments Support,High
+T0217,C0326,Payment issue,My payment was deducted but the order is missing.,High,Resolved,Payment issue,Payments Support,High
+T0218,C0432,Payment issue,My payment was deducted but the order is missing.,High,Open,Payment issue,Payments Support,High
+T0219,C0483,Refund request,Please help me with a refund for my order.,High,In Progress,Refund request,Refund Support,Medium
+T0220,C0143,Payment issue,My payment was deducted but the order is missing.,Low,In Progress,Payment issue,Payments Support,High
+T0221,C0200,Product quality,The product arrived damaged or poor quality.,High,In Progress,Product quality,Quality Support,High
+T0222,C0240,Missing item,One item is missing from my order.,Medium,Open,Missing item,Order Support,Medium
+T0223,C0001,Product quality,The product arrived damaged or poor quality.,Low,In Progress,Product quality,Quality Support,High
+T0224,C0343,Refund request,Please help me with a refund for my order.,Medium,Open,Refund request,Refund Support,Medium
+T0225,C0305,Refund request,Please help me with a refund for my order.,Low,Open,Refund request,Refund Support,Medium
+T0226,C0072,Missing item,One item is missing from my order.,Low,In Progress,Missing item,Order Support,Medium
+T0227,C0392,Payment issue,My payment was deducted but the order is missing.,Low,In Progress,Payment issue,Payments Support,High
+T0228,C0331,Payment issue,My payment was deducted but the order is missing.,Medium,In Progress,Payment issue,Payments Support,High
+T0229,C0100,Refund request,Please help me with a refund for my order.,Low,In Progress,Refund request,Refund Support,Medium
+T0230,C0116,Delayed order,My order has not arrived on time.,Medium,Open,Delayed order,Delivery Support,High
+T0231,C0064,Missing item,One item is missing from my order.,High,Resolved,Missing item,Order Support,Medium
+T0232,C0484,Refund request,Please help me with a refund for my order.,High,Open,Refund request,Refund Support,Medium
+T0233,C0228,Payment issue,My payment was deducted but the order is missing.,Low,Resolved,Payment issue,Payments Support,High
+T0234,C0390,Product quality,The product arrived damaged or poor quality.,Medium,Open,Product quality,Quality Support,High
+T0235,C0267,Delayed order,My order has not arrived on time.,Medium,Resolved,Delayed order,Delivery Support,High
+T0236,C0396,Delayed order,My order has not arrived on time.,High,Resolved,Delayed order,Delivery Support,High
+T0237,C0119,Missing item,One item is missing from my order.,High,In Progress,Missing item,Order Support,Medium
+T0238,C0421,Product quality,The product arrived damaged or poor quality.,Low,Resolved,Product quality,Quality Support,High
+T0239,C0233,Refund request,Please help me with a refund for my order.,Low,Open,Refund request,Refund Support,Medium
+T0240,C0449,Product quality,The product arrived damaged or poor quality.,Medium,Open,Product quality,Quality Support,High
+T0241,C0430,Missing item,One item is missing from my order.,Medium,Open,Missing item,Order Support,Medium
+T0242,C0219,Missing item,One item is missing from my order.,High,Open,Missing item,Order Support,Medium
+T0243,C0389,Missing item,One item is missing from my order.,Medium,Open,Missing item,Order Support,Medium
+T0244,C0053,Refund request,Please help me with a refund for my order.,Low,Resolved,Refund request,Refund Support,Medium
+T0245,C0492,Refund request,Please help me with a refund for my order.,High,In Progress,Refund request,Refund Support,Medium
+T0246,C0446,Payment issue,My payment was deducted but the order is missing.,High,In Progress,Payment issue,Payments Support,High
+T0247,C0216,Missing item,One item is missing from my order.,Low,Resolved,Missing item,Order Support,Medium
+T0248,C0443,Delayed order,My order has not arrived on time.,Medium,Resolved,Delayed order,Delivery Support,High
+T0249,C0464,Product quality,The product arrived damaged or poor quality.,Medium,Resolved,Product quality,Quality Support,High
+T0250,C0169,Refund request,Please help me with a refund for my order.,Medium,Resolved,Refund request,Refund Support,Medium
+T0251,C0183,Product quality,The product arrived damaged or poor quality.,Low,Open,Product quality,Quality Support,High
+T0252,C0366,Delayed order,My order has not arrived on time.,Medium,Open,Delayed order,Delivery Support,High
+T0253,C0254,Refund request,Please help me with a refund for my order.,Low,Resolved,Refund request,Refund Support,Medium
+T0254,C0341,Missing item,One item is missing from my order.,Medium,Open,Missing item,Order Support,Medium
+T0255,C0288,Missing item,One item is missing from my order.,High,Resolved,Missing item,Order Support,Medium
+T0256,C0311,Missing item,One item is missing from my order.,High,Resolved,Missing item,Order Support,Medium
+T0257,C0022,Missing item,One item is missing from my order.,High,Open,Missing item,Order Support,Medium
+T0258,C0430,Refund request,Please help me with a refund for my order.,High,Open,Refund request,Refund Support,Medium
+T0259,C0049,Refund request,Please help me with a refund for my order.,Low,Open,Refund request,Refund Support,Medium
+T0260,C0298,Product quality,The product arrived damaged or poor quality.,High,Resolved,Product quality,Quality Support,High
+T0261,C0216,Refund request,Please help me with a refund for my order.,Medium,Resolved,Refund request,Refund Support,Medium
+T0262,C0178,Delayed order,My order has not arrived on time.,High,In Progress,Delayed order,Delivery Support,High
+T0263,C0294,Missing item,One item is missing from my order.,High,Open,Missing item,Order Support,Medium
+T0264,C0417,Missing item,One item is missing from my order.,High,Resolved,Missing item,Order Support,Medium
+T0265,C0343,Missing item,One item is missing from my order.,Low,Open,Missing item,Order Support,Medium
+T0266,C0093,Refund request,Please help me with a refund for my order.,Low,Resolved,Refund request,Refund Support,Medium
+T0267,C0051,Product quality,The product arrived damaged or poor quality.,Medium,In Progress,Product quality,Quality Support,High
+T0268,C0374,Delayed order,My order has not arrived on time.,Medium,In Progress,Delayed order,Delivery Support,High
+T0269,C0420,Product quality,The product arrived damaged or poor quality.,High,In Progress,Product quality,Quality Support,High
+T0270,C0499,Product quality,The product arrived damaged or poor quality.,Low,In Progress,Product quality,Quality Support,High
+T0271,C0402,Missing item,One item is missing from my order.,Low,In Progress,Missing item,Order Support,Medium
+T0272,C0358,Missing item,One item is missing from my order.,High,In Progress,Missing item,Order Support,Medium
+T0273,C0108,Payment issue,My payment was deducted but the order is missing.,High,Resolved,Payment issue,Payments Support,High
+T0274,C0380,Product quality,The product arrived damaged or poor quality.,Medium,In Progress,Product quality,Quality Support,High
+T0275,C0433,Payment issue,My payment was deducted but the order is missing.,Medium,Open,Payment issue,Payments Support,High
+T0276,C0181,Product quality,The product arrived damaged or poor quality.,High,Resolved,Product quality,Quality Support,High
+T0277,C0163,Payment issue,My payment was deducted but the order is missing.,Medium,Open,Payment issue,Payments Support,High
+T0278,C0328,Delayed order,My order has not arrived on time.,Medium,In Progress,Delayed order,Delivery Support,High
+T0279,C0255,Refund request,Please help me with a refund for my order.,High,Open,Refund request,Refund Support,Medium
+T0280,C0104,Missing item,One item is missing from my order.,Medium,Resolved,Missing item,Order Support,Medium
+T0281,C0180,Missing item,One item is missing from my order.,Medium,In Progress,Missing item,Order Support,Medium
+T0282,C0387,Product quality,The product arrived damaged or poor quality.,Low,Open,Product quality,Quality Support,High
+T0283,C0009,Product quality,The product arrived damaged or poor quality.,Low,Open,Product quality,Quality Support,High
+T0284,C0159,Refund request,Please help me with a refund for my order.,High,Resolved,Refund request,Refund Support,Medium
+T0285,C0152,Refund request,Please help me with a refund for my order.,High,Resolved,Refund request,Refund Support,Medium
+T0286,C0204,Payment issue,My payment was deducted but the order is missing.,High,Resolved,Payment issue,Payments Support,High
+T0287,C0102,Delayed order,My order has not arrived on time.,Low,Open,Delayed order,Delivery Support,High
+T0288,C0469,Refund request,Please help me with a refund for my order.,High,In Progress,Refund request,Refund Support,Medium
+T0289,C0075,Product quality,The product arrived damaged or poor quality.,High,In Progress,Product quality,Quality Support,High
+T0290,C0182,Refund request,Please help me with a refund for my order.,Medium,Open,Refund request,Refund Support,Medium
+T0291,C0054,Missing item,One item is missing from my order.,High,In Progress,Missing item,Order Support,Medium
+T0292,C0292,Refund request,Please help me with a refund for my order.,Low,In Progress,Refund request,Refund Support,Medium
+T0293,C0227,Payment issue,My payment was deducted but the order is missing.,Low,Open,Payment issue,Payments Support,High
+T0294,C0080,Refund request,Please help me with a refund for my order.,High,In Progress,Refund request,Refund Support,Medium
+T0295,C0254,Delayed order,My order has not arrived on time.,Low,Resolved,Delayed order,Delivery Support,High
+T0296,C0126,Payment issue,My payment was deducted but the order is missing.,Low,In Progress,Payment issue,Payments Support,High
+T0297,C0075,Payment issue,My payment was deducted but the order is missing.,Low,In Progress,Payment issue,Payments Support,High
+T0298,C0494,Payment issue,My payment was deducted but the order is missing.,Low,Resolved,Payment issue,Payments Support,High
+T0299,C0430,Missing item,One item is missing from my order.,Medium,In Progress,Missing item,Order Support,Medium
+T0300,C0283,Refund request,Please help me with a refund for my order.,High,Open,Refund request,Refund Support,Medium
+T0301,C0096,Missing item,One item is missing from my order.,High,Resolved,Missing item,Order Support,Medium
+T0302,C0322,Missing item,One item is missing from my order.,High,In Progress,Missing item,Order Support,Medium
+T0303,C0362,Product quality,The product arrived damaged or poor quality.,Medium,In Progress,Product quality,Quality Support,High
+T0304,C0190,Missing item,One item is missing from my order.,Medium,Open,Missing item,Order Support,Medium
+T0305,C0277,Product quality,The product arrived damaged or poor quality.,Medium,Open,Product quality,Quality Support,High
+T0306,C0165,Payment issue,My payment was deducted but the order is missing.,High,Open,Payment issue,Payments Support,High
+T0307,C0297,Refund request,Please help me with a refund for my order.,Low,Open,Refund request,Refund Support,Medium
+T0308,C0363,Refund request,Please help me with a refund for my order.,Medium,Resolved,Refund request,Refund Support,Medium
+T0309,C0054,Product quality,The product arrived damaged or poor quality.,High,Open,Product quality,Quality Support,High
+T0310,C0368,Product quality,The product arrived damaged or poor quality.,High,Resolved,Product quality,Quality Support,High
+T0311,C0421,Refund request,Please help me with a refund for my order.,Low,In Progress,Refund request,Refund Support,Medium
+T0312,C0295,Product quality,The product arrived damaged or poor quality.,Low,In Progress,Product quality,Quality Support,High
+T0313,C0225,Refund request,Please help me with a refund for my order.,Medium,Resolved,Refund request,Refund Support,Medium
+T0314,C0034,Missing item,One item is missing from my order.,Low,Open,Missing item,Order Support,Medium
+T0315,C0230,Refund request,Please help me with a refund for my order.,High,Resolved,Refund request,Refund Support,Medium
+T0316,C0459,Delayed order,My order has not arrived on time.,Medium,In Progress,Delayed order,Delivery Support,High
+T0317,C0033,Payment issue,My payment was deducted but the order is missing.,High,In Progress,Payment issue,Payments Support,High
+T0318,C0489,Delayed order,My order has not arrived on time.,High,In Progress,Delayed order,Delivery Support,High
+T0319,C0130,Refund request,Please help me with a refund for my order.,High,Open,Refund request,Refund Support,Medium
+T0320,C0252,Refund request,Please help me with a refund for my order.,Medium,Resolved,Refund request,Refund Support,Medium
+T0321,C0203,Payment issue,My payment was deducted but the order is missing.,Low,Resolved,Payment issue,Payments Support,High
+T0322,C0159,Missing item,One item is missing from my order.,High,Resolved,Missing item,Order Support,Medium
+T0323,C0170,Product quality,The product arrived damaged or poor quality.,Low,Resolved,Product quality,Quality Support,High
+T0324,C0485,Refund request,Please help me with a refund for my order.,Medium,Open,Refund request,Refund Support,Medium
+T0325,C0349,Refund request,Please help me with a refund for my order.,High,In Progress,Refund request,Refund Support,Medium
+T0326,C0498,Delayed order,My order has not arrived on time.,High,Open,Delayed order,Delivery Support,High
+T0327,C0301,Product quality,The product arrived damaged or poor quality.,Low,Open,Product quality,Quality Support,High
+T0328,C0033,Refund request,Please help me with a refund for my order.,High,In Progress,Refund request,Refund Support,Medium
+T0329,C0376,Payment issue,My payment was deducted but the order is missing.,Low,Open,Payment issue,Payments Support,High
+T0330,C0397,Refund request,Please help me with a refund for my order.,Low,Open,Refund request,Refund Support,Medium
+T0331,C0333,Delayed order,My order has not arrived on time.,Medium,Resolved,Delayed order,Delivery Support,High
+T0332,C0170,Delayed order,My order has not arrived on time.,Low,Open,Delayed order,Delivery Support,High
+T0333,C0294,Missing item,One item is missing from my order.,High,Resolved,Missing item,Order Support,Medium
+T0334,C0413,Missing item,One item is missing from my order.,Medium,In Progress,Missing item,Order Support,Medium
+T0335,C0071,Missing item,One item is missing from my order.,Medium,Open,Missing item,Order Support,Medium
+T0336,C0160,Delayed order,My order has not arrived on time.,Medium,Open,Delayed order,Delivery Support,High
+T0337,C0451,Missing item,One item is missing from my order.,Medium,In Progress,Missing item,Order Support,Medium
+T0338,C0095,Delayed order,My order has not arrived on time.,Medium,In Progress,Delayed order,Delivery Support,High
+T0339,C0117,Payment issue,My payment was deducted but the order is missing.,Medium,Resolved,Payment issue,Payments Support,High
+T0340,C0174,Delayed order,My order has not arrived on time.,Medium,Open,Delayed order,Delivery Support,High
+T0341,C0132,Refund request,Please help me with a refund for my order.,Low,Resolved,Refund request,Refund Support,Medium
+T0342,C0286,Delayed order,My order has not arrived on time.,Low,Resolved,Delayed order,Delivery Support,High
+T0343,C0049,Product quality,The product arrived damaged or poor quality.,Low,Open,Product quality,Quality Support,High
+T0344,C0007,Refund request,Please help me with a refund for my order.,Low,In Progress,Refund request,Refund Support,Medium
+T0345,C0157,Missing item,One item is missing from my order.,Low,Resolved,Missing item,Order Support,Medium
+T0346,C0192,Refund request,Please help me with a refund for my order.,Low,Open,Refund request,Refund Support,Medium
+T0347,C0326,Payment issue,My payment was deducted but the order is missing.,High,In Progress,Payment issue,Payments Support,High
+T0348,C0275,Payment issue,My payment was deducted but the order is missing.,Low,In Progress,Payment issue,Payments Support,High
+T0349,C0447,Delayed order,My order has not arrived on time.,High,Open,Delayed order,Delivery Support,High
+T0350,C0192,Refund request,Please help me with a refund for my order.,High,Open,Refund request,Refund Support,Medium
+T0351,C0362,Missing item,One item is missing from my order.,Low,Resolved,Missing item,Order Support,Medium
+T0352,C0417,Payment issue,My payment was deducted but the order is missing.,Medium,Open,Payment issue,Payments Support,High
+T0353,C0020,Refund request,Please help me with a refund for my order.,High,Open,Refund request,Refund Support,Medium
+T0354,C0479,Product quality,The product arrived damaged or poor quality.,Medium,Open,Product quality,Quality Support,High
+T0355,C0350,Product quality,The product arrived damaged or poor quality.,Low,Resolved,Product quality,Quality Support,High
+T0356,C0086,Refund request,Please help me with a refund for my order.,Low,In Progress,Refund request,Refund Support,Medium
+T0357,C0309,Payment issue,My payment was deducted but the order is missing.,Low,Resolved,Payment issue,Payments Support,High
+T0358,C0481,Product quality,The product arrived damaged or poor quality.,Medium,Resolved,Product quality,Quality Support,High
+T0359,C0426,Refund request,Please help me with a refund for my order.,Medium,In Progress,Refund request,Refund Support,Medium
+T0360,C0343,Delayed order,My order has not arrived on time.,High,Open,Delayed order,Delivery Support,High
+T0361,C0127,Product quality,The product arrived damaged or poor quality.,Medium,Open,Product quality,Quality Support,High
+T0362,C0492,Payment issue,My payment was deducted but the order is missing.,Medium,Open,Payment issue,Payments Support,High
+T0363,C0022,Missing item,One item is missing from my order.,Medium,Open,Missing item,Order Support,Medium
+T0364,C0416,Missing item,One item is missing from my order.,High,Resolved,Missing item,Order Support,Medium
+T0365,C0051,Refund request,Please help me with a refund for my order.,High,Open,Refund request,Refund Support,Medium
+T0366,C0467,Product quality,The product arrived damaged or poor quality.,High,Resolved,Product quality,Quality Support,High
+T0367,C0360,Refund request,Please help me with a refund for my order.,High,Resolved,Refund request,Refund Support,Medium
+T0368,C0388,Missing item,One item is missing from my order.,High,Resolved,Missing item,Order Support,Medium
+T0369,C0145,Payment issue,My payment was deducted but the order is missing.,Medium,Open,Payment issue,Payments Support,High
+T0370,C0391,Missing item,One item is missing from my order.,Low,In Progress,Missing item,Order Support,Medium
+T0371,C0207,Missing item,One item is missing from my order.,Medium,In Progress,Missing item,Order Support,Medium
+T0372,C0252,Delayed order,My order has not arrived on time.,Low,In Progress,Delayed order,Delivery Support,High
+T0373,C0165,Delayed order,My order has not arrived on time.,High,In Progress,Delayed order,Delivery Support,High
+T0374,C0200,Refund request,Please help me with a refund for my order.,Medium,In Progress,Refund request,Refund Support,Medium
+T0375,C0395,Product quality,The product arrived damaged or poor quality.,High,Resolved,Product quality,Quality Support,High
+T0376,C0271,Delayed order,My order has not arrived on time.,Low,Open,Delayed order,Delivery Support,High
+T0377,C0158,Delayed order,My order has not arrived on time.,High,Resolved,Delayed order,Delivery Support,High
+T0378,C0278,Refund request,Please help me with a refund for my order.,Low,Resolved,Refund request,Refund Support,Medium
+T0379,C0379,Product quality,The product arrived damaged or poor quality.,Low,Resolved,Product quality,Quality Support,High
+T0380,C0025,Delayed order,My order has not arrived on time.,Medium,In Progress,Delayed order,Delivery Support,High
+T0381,C0181,Payment issue,My payment was deducted but the order is missing.,High,Open,Payment issue,Payments Support,High
+T0382,C0379,Missing item,One item is missing from my order.,High,Resolved,Missing item,Order Support,Medium
+T0383,C0261,Payment issue,My payment was deducted but the order is missing.,Medium,Resolved,Payment issue,Payments Support,High
+T0384,C0467,Delayed order,My order has not arrived on time.,Low,Open,Delayed order,Delivery Support,High
+T0385,C0487,Missing item,One item is missing from my order.,Low,Open,Missing item,Order Support,Medium
+T0386,C0038,Product quality,The product arrived damaged or poor quality.,High,Open,Product quality,Quality Support,High
+T0387,C0106,Missing item,One item is missing from my order.,High,Resolved,Missing item,Order Support,Medium
+T0388,C0008,Refund request,Please help me with a refund for my order.,Low,In Progress,Refund request,Refund Support,Medium
+T0389,C0461,Payment issue,My payment was deducted but the order is missing.,High,Open,Payment issue,Payments Support,High
+T0390,C0003,Product quality,The product arrived damaged or poor quality.,Low,Resolved,Product quality,Quality Support,High
+T0391,C0091,Product quality,The product arrived damaged or poor quality.,Medium,Open,Product quality,Quality Support,High
+T0392,C0470,Product quality,The product arrived damaged or poor quality.,Medium,Open,Product quality,Quality Support,High
+T0393,C0073,Payment issue,My payment was deducted but the order is missing.,High,Open,Payment issue,Payments Support,High
+T0394,C0343,Refund request,Please help me with a refund for my order.,Medium,In Progress,Refund request,Refund Support,Medium
+T0395,C0364,Refund request,Please help me with a refund for my order.,High,In Progress,Refund request,Refund Support,Medium
+T0396,C0482,Payment issue,My payment was deducted but the order is missing.,High,Resolved,Payment issue,Payments Support,High
+T0397,C0210,Product quality,The product arrived damaged or poor quality.,High,Open,Product quality,Quality Support,High
+T0398,C0422,Missing item,One item is missing from my order.,Medium,In Progress,Missing item,Order Support,Medium
+T0399,C0432,Product quality,The product arrived damaged or poor quality.,Low,In Progress,Product quality,Quality Support,High
+T0400,C0308,Product quality,The product arrived damaged or poor quality.,Low,Resolved,Product quality,Quality Support,High

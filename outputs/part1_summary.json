@@ -1,0 +1,29 @@
+{
+  "source": "UCI Online Retail dataset (downloaded by user)",
+  "rows_before_cleaning": 541909,
+  "rows_after_cleaning": 392692,
+  "duplicate_rows_before_cleaning": 5268,
+  "missing_values_before_cleaning": {
+    "InvoiceNo": 0,
+    "StockCode": 0,
+    "Description": 1454,
+    "Quantity": 0,
+    "InvoiceDate": 0,
+    "UnitPrice": 0,
+    "CustomerID": 135080,
+    "Country": 0
+  },
+  "unique_customers": 4338,
+  "unique_invoices": 18532,
+  "unique_products": 3665,
+  "date_min": "2010-12-01 08:26:00",
+  "date_max": "2011-12-09 12:50:00",
+  "total_sales": 8887208.89,
+  "cleaning_notes": [
+    "Removed exact duplicate rows.",
+    "Removed rows missing invoice date, customer ID, invoice number, quantity, or unit price.",
+    "Excluded invoice numbers beginning with C (cancellations/credit notes) from primary sales analysis.",
+    "Excluded non-positive quantities and unit prices from primary sales analysis.",
+    "Calculated Sales = Quantity * UnitPrice."
+  ]
+}

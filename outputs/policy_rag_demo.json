@@ -1,0 +1,122 @@
+[
+  {
+    "question": "My delivery is late. Where is my order?",
+    "answer": "Relevant topic: Refund requests. Reference guidance: Illustrative rule: verify the order, payment, and issue before deciding eligibility. Refer uncertain cases to a human. Check the actual order and payment records before making a decision. Escalate uncertain cases to a human.",
+    "escalate_to_human": true,
+    "retrieved_policies": [
+      {
+        "policy_id": "P002",
+        "topic": "Refund requests",
+        "policy_text": "Illustrative rule: verify the order, payment, and issue before deciding eligibility. Refer uncertain cases to a human.",
+        "similarity": 0.189
+      },
+      {
+        "policy_id": "P005",
+        "topic": "Payment issues",
+        "policy_text": "Illustrative rule: verify payment and order records before giving guidance. Never claim a refund was issued without proof.",
+        "similarity": 0.166
+      }
+    ],
+    "note": "These are illustrative policies for a student project, not verified official Swiggy policies."
+  },
+  {
+    "question": "Money was deducted but my order is missing.",
+    "answer": "Relevant topic: Missing items. Reference guidance: Illustrative rule: compare the order items with the reported missing item and refer unresolved cases to support. Check the actual order and payment records before making a decision. Escalate uncertain cases to a human.",
+    "escalate_to_human": true,
+    "retrieved_policies": [
+      {
+        "policy_id": "P004",
+        "topic": "Missing items",
+        "policy_text": "Illustrative rule: compare the order items with the reported missing item and refer unresolved cases to support.",
+        "similarity": 0.536
+      },
+      {
+        "policy_id": "P002",
+        "topic": "Refund requests",
+        "policy_text": "Illustrative rule: verify the order, payment, and issue before deciding eligibility. Refer uncertain cases to a human.",
+        "similarity": 0.093
+      }
+    ],
+    "note": "These are illustrative policies for a student project, not verified official Swiggy policies."
+  },
+  {
+    "question": "I received a damaged product.",
+    "answer": "Relevant topic: Damaged products. Reference guidance: Illustrative rule: record the affected item and issue details. Escalate disputed or unclear cases to a human agent. Check the actual order and payment records before making a decision. Escalate uncertain cases to a human.",
+    "escalate_to_human": true,
+    "retrieved_policies": [
+      {
+        "policy_id": "P003",
+        "topic": "Damaged products",
+        "policy_text": "Illustrative rule: record the affected item and issue details. Escalate disputed or unclear cases to a human agent.",
+        "similarity": 0.295
+      },
+      {
+        "policy_id": "P005",
+        "topic": "Payment issues",
+        "policy_text": "Illustrative rule: verify payment and order records before giving guidance. Never claim a refund was issued without proof.",
+        "similarity": 0.0
+      }
+    ],
+    "note": "These are illustrative policies for a student project, not verified official Swiggy policies."
+  },
+  {
+    "question": "An item is missing from my delivery.",
+    "answer": "Relevant topic: Missing items. Reference guidance: Illustrative rule: compare the order items with the reported missing item and refer unresolved cases to support. Check the actual order and payment records before making a decision. Escalate uncertain cases to a human.",
+    "escalate_to_human": true,
+    "retrieved_policies": [
+      {
+        "policy_id": "P004",
+        "topic": "Missing items",
+        "policy_text": "Illustrative rule: compare the order items with the reported missing item and refer unresolved cases to support.",
+        "similarity": 0.548
+      },
+      {
+        "policy_id": "P003",
+        "topic": "Damaged products",
+        "policy_text": "Illustrative rule: record the affected item and issue details. Escalate disputed or unclear cases to a human agent.",
+        "similarity": 0.149
+      }
+    ],
+    "note": "These are illustrative policies for a student project, not verified official Swiggy policies."
+  },
+  {
+    "question": "How can I request a refund?",
+    "answer": "Relevant topic: Refund requests. Reference guidance: Illustrative rule: verify the order, payment, and issue before deciding eligibility. Refer uncertain cases to a human. Check the actual order and payment records before making a decision. Escalate uncertain cases to a human.",
+    "escalate_to_human": true,
+    "retrieved_policies": [
+      {
+        "policy_id": "P002",
+        "topic": "Refund requests",
+        "policy_text": "Illustrative rule: verify the order, payment, and issue before deciding eligibility. Refer uncertain cases to a human.",
+        "similarity": 0.27
+      },
+      {
+        "policy_id": "P005",
+        "topic": "Payment issues",
+        "policy_text": "Illustrative rule: verify payment and order records before giving guidance. Never claim a refund was issued without proof.",
+        "similarity": 0.238
+      }
+    ],
+    "note": "These are illustrative policies for a student project, not verified official Swiggy policies."
+  },
+  {
+    "question": "I need help with an unrelated issue about my account.",
+    "answer": "Relevant topic: Refund requests. Reference guidance: Illustrative rule: verify the order, payment, and issue before deciding eligibility. Refer uncertain cases to a human. Check the actual order and payment records before making a decision. Escalate uncertain cases to a human.",
+    "escalate_to_human": true,
+    "retrieved_policies": [
+      {
+        "policy_id": "P002",
+        "topic": "Refund requests",
+        "policy_text": "Illustrative rule: verify the order, payment, and issue before deciding eligibility. Refer uncertain cases to a human.",
+        "similarity": 0.27
+      },
+      {
+        "policy_id": "P003",
+        "topic": "Damaged products",
+        "policy_text": "Illustrative rule: record the affected item and issue details. Escalate disputed or unclear cases to a human agent.",
+        "similarity": 0.238
+      }
+    ],
+    "note": "These are illustrative policies for a student project, not verified official Swiggy policies."
+  }
+]
