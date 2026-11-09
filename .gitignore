@@ -4,8 +4,11 @@ __pycache__/
 *.py[cod]
 .pytest_cache/
 .env
-data/raw/*
-!data/raw/.gitkeep
-data/processed/*
-!data/processed/.gitkeep
 .DS_Store
+
+# Generated notebook copies and charts
+instructor_work/notebooks/data/
+*.png
+*.jpg
+*.jpeg
+*.svg

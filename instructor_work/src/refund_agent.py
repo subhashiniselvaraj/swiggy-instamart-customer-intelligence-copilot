@@ -46,3 +46,86 @@ def run_agent(user_message,scenario_id="demo",max_iterations=6,token_limit=6000,
         checkpoint(iteration+1)
         if crash_after is not None and len(executed)==crash_after: raise RuntimeError("Simulated crash after checkpoint")
     return {"status":"FALLBACK_MAX_ITERATIONS","final_answer":"FALLBACK_MAX_ITERATIONS: hand off to a human agent.","steps":steps,"llm_calls":llm_calls,"tokens_used":tokens}
+
+
+def resume_agent(run_id, max_iterations=6, token_limit=6000, time_limit_seconds=10):
+    path = STATE / f"{run_id}.json"
+    if not path.exists():
+        raise FileNotFoundError(f"No checkpoint found for {run_id}")
+
+    saved = json.loads(path.read_text(encoding="utf-8"))
+    messages = saved["messages"]
+    tokens = saved["tokens_used"]
+    steps = saved["steps"]
+    executed = saved["tools_executed"]
+    llm_calls = saved["llm_calls"]
+    start = time.monotonic()
+
+    def result(status, answer):
+        return {
+            "status": status,
+            "final_answer": answer,
+            "steps": steps,
+            "llm_calls": llm_calls,
+            "tokens_used": tokens,
+        }
+
+    for iteration in range(llm_calls, max_iterations):
+        if time.monotonic() - start >= time_limit_seconds:
+            return result("FALLBACK_TIMEOUT", "FALLBACK_TIMEOUT: hand off to a human agent.")
+
+        response = mock_llm.chat(messages)
+        llm_calls += 1
+        tokens += response.usage.total_tokens
+
+        if tokens > token_limit:
+            return result("FALLBACK_TOKEN_LIMIT", "FALLBACK_TOKEN_LIMIT: hand off to a human agent.")
+
+        msg = response.choices[0].message
+        if not msg.tool_calls:
+            content = msg.content or ""
+            return result(content.split(":", 1)[0], content)
+
+        tc = msg.tool_calls[0]
+        args = tc.arguments
+
+        messages.append({
+            "role": "assistant",
+            "content": None,
+            "tool_calls": [{
+                "id": tc.id,
+                "name": tc.name,
+                "arguments": args,
+            }],
+        })
+
+        observation = TOOL_MAP[tc.name](**args)
+        executed.append(tc.name)
+
+        steps.append({
+            "tool": tc.name,
+            "arguments": args,
+            "observation": observation,
+        })
+
+        messages.append({
+            "role": "tool",
+            "tool_call_id": tc.id,
+            "name": tc.name,
+            "content": json.dumps(observation),
+        })
+
+        saved.update({
+            "messages": messages,
+            "tokens_used": tokens,
+            "step_number": len(steps),
+            "tools_executed": executed,
+            "steps": steps,
+            "llm_calls": llm_calls,
+        })
+        path.write_text(json.dumps(saved), encoding="utf-8")
+
+    return result(
+        "FALLBACK_MAX_ITERATIONS",
+        "FALLBACK_MAX_ITERATIONS: hand off to a human agent.",
+    )

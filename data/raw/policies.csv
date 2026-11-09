@@ -1,0 +1,6 @@
+policy_id,topic,policy_text
+P001,Delayed orders,Illustrative rule: verify the order status and estimated arrival time. Escalate repeated or severe delays to support.
+P002,Refund requests,"Illustrative rule: verify the order, payment, and issue before deciding eligibility. Refer uncertain cases to a human."
+P003,Damaged products,Illustrative rule: record the affected item and issue details. Escalate disputed or unclear cases to a human agent.
+P004,Missing items,Illustrative rule: compare the order items with the reported missing item and refer unresolved cases to support.
+P005,Payment issues,Illustrative rule: verify payment and order records before giving guidance. Never claim a refund was issued without proof.
